@@ -1,0 +1,28 @@
+{
+
+  "description": "Detects if the website you are visiting is a Mendix App.",
+  "manifest_version": 2,
+  "name": "MxDetect",
+  "version": "1.0",
+  "homepage_url": "https://github.com/pommi/MxDetect",
+
+  "icons": {
+    "48": "icons/mendix-logo.svg"
+  },
+
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webNavigation"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/mendix-logo-grey.svg",
+    "default_title": "MxDetect"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
